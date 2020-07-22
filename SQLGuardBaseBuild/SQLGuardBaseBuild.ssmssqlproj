@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQLGuardBaseBuild">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="DESKTOP-5QGB17A:sa">
+          <Created>2020-07-21T21:43:00.9637111+08:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-5QGB17A</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>SQLGuard_Hub</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="B00_ALTER_SYSDBs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B00_ALTER_SYSDBs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B01_ALTER_sa.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B01_ALTER_sa.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B02_CREATE_SQLGuardDBs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B02_CREATE_SQLGuardDBs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B03_EnableFeatures.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B03_EnableFeatures.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B04_SMTPConf.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B04_SMTPConf.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B05_SMTP_TestSend.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B05_SMTP_TestSend.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B06_Create_Operator.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B06_Create_Operator.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B07_CREATE_SRV_DB_Trigger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B07_CREATE_SRV_DB_Trigger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B08_A1_CommandExecute.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B08_A1_CommandExecute.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B08_A2_CommandLog.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B08_A2_CommandLog.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B08_A3_DatabaseIntegrityCheck.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B08_A3_DatabaseIntegrityCheck.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B08_A4_IndexOptimize.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B08_A4_IndexOptimize.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B08_A5_Exec SP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B08_A5_Exec SP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B08_B_CREATE_OLA_Maintenance.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B08_B_CREATE_OLA_Maintenance.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B09_CREATE_ALERTS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B09_CREATE_ALERTS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B10_CREATE_TLog_Alerts.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B10_CREATE_TLog_Alerts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B11_CREATE_Restart_Job.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B11_CREATE_Restart_Job.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B12_CREATE_OLA_Schedule.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B12_CREATE_OLA_Schedule.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B13_ALTER_Index.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B13_ALTER_Index.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B14_Sp_MAXDOP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B14_Sp_MAXDOP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B15_SSISDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B15_SSISDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B16_SysAdmins.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-5QGB17A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-5QGB17A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>B16_SysAdmins.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="COPYING.txt">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>COPYING.txt</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
