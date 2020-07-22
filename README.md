@@ -3,7 +3,7 @@ SQLGuard is what I have called a grouping or collection of objects which I have 
 
 1. The basebuild solution can be customised for any enviroment and is a collection of scripts which will help you do perform DBA tasks. Some scripts are from OLA and OZAR which I love to use, the build will postiion these into a base DB and not the master DB. Rename as you like. 
 2. SQLGuard SSIS solution health reporting
-3. SQLGuard Netbackup SSIS solution, this uses a local db on each instance and an SSIS package which calls the local Netbackup agent and master server to backup SQL databases. 
+3. SQLNetbackupV2 SSIS solution, this uses a local db on each instance called [SQLGuard_Ops] and an SSIS package which calls the local Netbackup agent and master server to backup SQL databases. See the relevant page for more info. 
 
 Databases I use:
 
